@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string name="app_name">Home Automation Client</string>
+    <string name="app_version">0.01</string>
+    <string name="title_item_detail">Item Detail</string>
+    <string name="title_activity_about">AboutActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_system_state">SystemStateActivity</string>
+
+    <!-- Общее -->
+    <string name="measuremet_celsium">°C</string>
+    <string name="measuremet_humidity">г/м³</string>
+    <string name="measuremet_voltage">В</string>
+
+    <!-- Состояние системы -->
+    <string name="system_tab">Состояние системы</string>
+    <string name="system_current_time">Текущее время:</string>
+    <string name="system_current_voltage">Напряжение питания:</string>
+    <string name="system_current_humidity">Влажность воздуха:</string>
+    <string name="system_current_temperature">Температура дома:</string>
+    <string name="system_current_outdoor_temperature">Температура на улице:</string>
+    <string name="system_current_state">Текущее состояние:</string>
+    <string name="system_state_0">Авария</string>
+    <string name="system_state_1">Норма</string>
+    <string name="system_state_2">Внимание!</string>
+
+    <!-- Свет -->
+    <string name="light_tab">Свет</string>
+    <string name="light_room">Усправление светом в комнате: </string>
+    <string name="light_killall">Выключить весь свет</string>
+    <string name="light_primary">Основной свет</string>
+    <string name="light_secondary">Подсветка</string>
+    <string name="light_table">Свет над столом</string>
+    <string name="light_mirror">Свет у зеркала</string>
+
+    <!-- Климат -->
+    <string name="climate_tab">Климат</string>
+    <string name="climate_title">Управление климатическим оборудовнием: </string>
+    <string name="climate_central_heating">Центральное отопление: </string>
+    <string name="climate_hall_conditioner">Кондиционер в зале: </string>
+    <string name="climate_warm_floor_kitchen">Теплый пол кухня: </string>
+    <string name="climate_warm_floor_bathroom">Теплый пол санузел: </string>
+    <string name="climate_water_heater">Принудительный подогрев воды: </string>
+    <string name="climate_water_temperature">Температура воды центрального отопления: </string>
+    <string name="climate_heater_temperature">Температура воды в котле: </string>
+
+    <!-- Датчики -->
+    <string name="sensors_tab">Датчики</string>
+    <string name="sensors_list">Список подключенных датчиков: </string>
+    <string name="sensors_graph">График изменений</string>
+
+    <!-- Видеонаблюдение -->
+    <string name="camera_tab">Видеонаблюдение</string>
+    <string name="camera_list">Список камер: </string>
+    <string name="button_camera_capture">Сделать снимок</string>
+
+    <!-- Настройки -->
+    <string name="settings_tab">Настройки</string>
+    <string name="connected_triggers">Подключено устройств: </string>
+    <string name="connected_sensors">Подключено датчиков: </string>
+    <string name="settings_address">Адрес сервера:</string>
+    <string name="settings_test">Тест соединения</string>
+    <string name="settings_test_true">Соединение установлено</string>
+    <string name="settings_test_false">Не удалось установить соединение</string>
+
+    <!-- О программе -->
+    <string name="about_tab">О программе</string>
+    <string name="system_title">Имя системы:</string>
+    <string name="system_version">Версия программы:</string>
+    <string name="system_api_version">Версия программы:</string>
+
+    <!-- Диалоги -->
+    <string name="dialog_choose_action">Выберете действие</string>
+    <string name="dialog_delete">Удалить</string>
+    <string name="dialog_back">Назад</string>
+    <string name="dialog_loading">Загрузка...</string>
+
+
+    <string name="title_activity_light">LightActivity</string>
+    <string name="title_activity_climate">ClimateActivity</string>
+    <string name="title_activity_sensors">SensorsActivity</string>
+    <string name="title_activity_surveillance">SurveillanceActivity</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+
+    <string name="placeholder" >Medium Text</string>
+    <string name="valueholder" >Загрузка…</string>
+
+    <string-array name="menu_items">
+        <item>Состояние</item>
+        <item>Свет</item>
+        <item>Климат</item>
+        <item>Охрана</item>
+        <item>Другое</item>
+        <item>Настройки</item>
+        <item>О системе</item>
+    </string-array>
+
+</resources>
