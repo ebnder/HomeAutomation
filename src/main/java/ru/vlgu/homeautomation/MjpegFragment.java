@@ -21,7 +21,7 @@ public class MjpegFragment extends Fragment {
     private static final String TAG = "MjpegFragment";
     public View view;
     private MjpegView mv;
-    public String URL = "http://avocam3.avo.ru/axis-cgi/mjpg/video.cgi";
+    public String URL = "http://trackfield.webcam.oregonstate.edu/axis-cgi/mjpg/video.cgi";
 
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -36,8 +36,6 @@ public class MjpegFragment extends Fragment {
 
     public void onPause() {
         super.onPause();
-        Log.d("Oppa", "pause");
-
         mv.stopPlayback();
     }
 
